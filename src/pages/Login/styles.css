@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#E8E8E8;
+}
+.container{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px lightblue;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    justify-content: space-around;
+}
+.ld{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.le{
+    display: flex;
+    flex-direction: column;
+}
