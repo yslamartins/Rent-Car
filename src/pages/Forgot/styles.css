@@ -1,0 +1,14 @@
+.card-rec{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#img{
+    display: flex;
+    width: 150px;
+}
+#send{
+    background-color: brown;
+    color: white;
+}

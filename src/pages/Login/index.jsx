@@ -2,27 +2,33 @@ import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { FaXTwitter } from "react-icons/fa6";
-
 import "./styles.css";
 
 export default function Login() {
   return (
-    <div className="container">
+    <div className="container-login">
       <div className="card">
         <div className="le">
-          <button id="face">
+          <button className="button" id="face">
             <FaFacebookF />
             Login with Facebook
           </button>
-          <button id="google">
+          <button className="button" id="google">
           <FcGoogle />
           Login with Google
           </button>
-          <button id="tt"> 
+          <button className="button" id="tt"> 
           <FaXTwitter />
             Login with Twitter</button>
         </div>
-        <h3 id="or">OR</h3>
+        <div className="meio">
+          <div className="t">
+          </div>
+          <div className="m">
+              <h3 id="or">OR</h3>
+          </div>
+          <div className="t"></div>
+        </div>
         <div className="ld">
           <h2>Sign in</h2>
           <input type="text" name="" id="" placeholder="Username" />
@@ -38,7 +44,7 @@ export default function Login() {
         </div>
         <div className="links">
         <Link to="/cadastro" id="cad">Register now</Link>   |   
-        <Link to="/rec">Forgot password?</Link>
+        <Link to="/forgot">Forgot password?</Link>
         </div>
           </div>
           

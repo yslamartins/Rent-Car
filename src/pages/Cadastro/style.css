@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#E8E8E8;
+    color: #575251;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.le-cad{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin: 10px;
+}
+
+.form  input{
+    outline: none;
+}
+.username{
+    padding: 10px;
+    border-radius: 7px ;
+    border: none;
+    background: #cccc;
+}
+.username input{
+    background: none;
+    border: none;
+}
+.email{
+    padding: 10px;
+    border-radius: 7px ;
+    border: none;
+    background: #cccc;
+}
+.email input{
+    background: none;
+    border: none;
+}
+.password{
+    padding: 10px;
+    border-radius: 7px ;
+    border: none;
+    background: #cccc;
+}
+.password input{
+    background: none;
+    border: none;
+}
+.re-password{
+    padding: 10px;
+    border-radius: 7px ;
+    border: none;
+    background: #cccc;
+}
+.re-password input{
+    background: none;
+    border: none;
+}
+.le button{
+    background-color: brown;
+}
+.ld{
+    width: 50%;
+    justify-content: center;
+    margin: 10px;
+
+}

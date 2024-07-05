@@ -4,7 +4,7 @@ import { IoPersonSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLock } from "react-icons/fa";
 import logoEmail from "./image.svg";
-import "./styles.css";
+import "./style.css";
 
 export default function Cadastro() {
   const [username, setUsername] = useState("");
@@ -64,10 +64,10 @@ export default function Cadastro() {
 
   return (
     <div className="container">
-      <div className="le">
+      <div className="le-cad">
         <div className="header">
           <p>
-            Already a member? <Link to="/login">Sign in</Link>
+            Already a member? <Link to="/">Sign in</Link>
           </p>
         </div>
         <h1>Sign Up</h1>
@@ -120,7 +120,7 @@ export default function Cadastro() {
             {confirmPasswordError && <p className="error">{confirmPasswordError}</p>}
           </div>
           {errorMessage && <p className="error">{errorMessage}</p>}
-          <button type="submit">Sign up</button>
+          <button type="submit" onClick={sub}>Sign up</button>
         </form>
       </div>
 
