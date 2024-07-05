@@ -2,27 +2,99 @@ body{
     display: flex;
     justify-content: center;
     background-color:#E8E8E8;
+    color: #575251;
 }
 .container{
     display: flex;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px lightblue;
-    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 .card{
     display: flex;
     align-items: center;
-    width: 600px;
-    height: 300px;
+    width: 700px;
+    height: 330px;
     justify-content: space-around;
 }
 .ld{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 5px;
+    color: #575251;
+}
+.ld input{
+    padding: 18px;
+    border-radius: 7px ;
+    border: none;
+    background: #cccc;
+}
+.ld button{
+    background-color: brown;
+    margin: 10px;
+}
+.ld [type="checkbox"]{
+    padding: 10px;
+    appearance: none; /* Remove estilos padrão do sistema */
+    -webkit-appearance: none; /* Para navegadores baseados em WebKit */
+    -moz-appearance: none; /* Para navegadores baseados em Gecko */
+    width: 6px; /* Tamanho do checkbox */
+    height: 6px; /* Tamanho do checkbox */
+    border: 1px solid #ccc; /* Borda do checkbox */
+    background-color: white; /* Cor de fundo */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    vertical-align: middle; /* Alinhamento vertical */
+    margin-right: 5px;
+}
+.ld input[type="checkbox"]:checked {
+    background-color: brown;
+}
+#cad{
+    color: brown;
+}
+#or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Largura do círculo */
+    height: 40px; /* Altura do círculo */
+    border-radius: 50%; /* Torna o contêiner circular */
+    text-align: center;
+    border: 2px dotted #4267B2; 
+    padding: 6px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .le{
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    margin: 10px;
+}
+.le button{
+    height: 62px;
+}
+.le{
+    display: flex;
+    flex-direction: column;
+    
+}
+#face{
+    background-color: #4267B2;
+    display: flex;
+    align-items: center;
+    
+}
+#google{
+    background-color: #4285F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tt{
+    background-color: #14171A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
