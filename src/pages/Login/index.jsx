@@ -31,9 +31,9 @@ export default function Login() {
         </div>
         <div className="ld">
           <h2>Sign in</h2>
-          <input type="text" name="" id="" placeholder="Username" />
+          <input type="text" name="" id="" placeholder="Username" required />
           <label htmlFor=""></label>
-          <input type="password" name="" id="" placeholder="Password" />
+          <input type="password" name="" id="" placeholder="Password" required />
           <label htmlFor=""></label>
           
           <div className="form-end">
