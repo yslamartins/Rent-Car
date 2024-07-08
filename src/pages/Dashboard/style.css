@@ -1,0 +1,23 @@
+.card-car{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    justify-content: space-around;
+    
+}
+.detalhes{
+    display: flex;
+}
+.detalhes img{
+    width: 300px;
+    display: block;
+}
+.detalhes h3{
+    display: flex;
+    font-size: 60px;
+    justify-content: baseline;
+}
+/*FE Engschrift- colocar fonte para os carros 
