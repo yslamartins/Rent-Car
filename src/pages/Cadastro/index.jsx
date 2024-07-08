@@ -120,7 +120,7 @@ export default function Cadastro() {
             {confirmPasswordError && <p className="error">{confirmPasswordError}</p>}
           </div>
           {errorMessage && <p className="error">{errorMessage}</p>}
-          <button type="submit" onClick={sub}>Sign up</button>
+          <button type="submit">Sign up</button>
         </form>
       </div>
 

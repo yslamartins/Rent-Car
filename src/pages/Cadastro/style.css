@@ -9,8 +9,8 @@ body{
     justify-content: flex-end;
 }
 .container{
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
     display: flex;
     justify-content: space-evenly;
     background-color: white;
@@ -21,52 +21,46 @@ body{
     display: flex;
     flex-direction: column;
 }
+.led h1{
+    margin: 12px;
+}
 .form{
+    display: flex;
     margin: 10px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .form  input{
     outline: none;
+    color: black;
 }
-.username{
-    padding: 10px;
-    border-radius: 7px ;
-    border: none;
+
+.username,
+.email,
+.password,
+.re-password {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 7px;
     background: #cccc;
 }
-.username input{
+.username input,
+.email input,
+.password input,
+.re-password input {
     background: none;
     border: none;
+    flex: 1;
+    margin-left: 10px;
 }
-.email{
-    padding: 10px;
-    border-radius: 7px ;
-    border: none;
-    background: #cccc;
-}
-.email input{
-    background: none;
-    border: none;
-}
-.password{
-    padding: 10px;
-    border-radius: 7px ;
-    border: none;
-    background: #cccc;
-}
-.password input{
-    background: none;
-    border: none;
-}
-.re-password{
-    padding: 10px;
-    border-radius: 7px ;
-    border: none;
-    background: #cccc;
-}
-.re-password input{
-    background: none;
-    border: none;
+.username > svg,
+.email > svg,
+.password > svg,
+.re-password > svg {
+  margin-left: 10px; /* Ajuste a margem conforme necessário */
 }
 .le button{
     background-color: brown;
@@ -75,5 +69,13 @@ body{
     width: 50%;
     justify-content: center;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
 
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    flex-wrap: wrap;
 }
