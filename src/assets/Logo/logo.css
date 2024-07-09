@@ -1,0 +1,21 @@
+.container-logo {
+    display: flex;
+    justify-content: flex-start; /* alinha à esquerda */
+    align-items: center; /* centraliza verticalmente */
+    padding: 10px; /* espaçamento opcional */
+    height: 100px;
+}
+
+.container-logo img {
+    width:230px;
+}
+.container-logo h2{
+    font-family: placa;
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+@font-face {
+    font-family: placa;
+    src: url('FE-FONT.TTF');
+}

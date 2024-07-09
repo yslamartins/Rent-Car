@@ -65,7 +65,7 @@ export default function Cadastro() {
   return (
     <div className="container">
       <div className="le-cad">
-        <div className="header">
+        <div className="header-cad">
           <p>
             Already a member? <Link to="/">Sign in</Link>
           </p>
@@ -124,7 +124,7 @@ export default function Cadastro() {
         </form>
       </div>
 
-      <div className="ld">
+      <div className="ld-cad">
         <img src={logoEmail} alt="Logo" />
       </div>
     </div>
