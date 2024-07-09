@@ -1,10 +1,14 @@
-body{
+@font-face {
+    font-family: placa;
+    src: url('../../assets/Logo/FE-FONT.TTF');
+}
+.container body{
     display: flex;
     justify-content: center;
     background-color:#E8E8E8;
     color: #575251;
 }
-.header{
+.header-card{
     display: flex;
     justify-content: flex-end;
 }
@@ -16,13 +20,16 @@ body{
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    align-items: center;
 }
 .le-cad{
     display: flex;
     flex-direction: column;
 }
-.led h1{
-    margin: 12px;
+.le-cad h1{
+    font-size: 50px;
+    font-family: placa;
+    color: brown;
 }
 .form{
     display: flex;
@@ -30,12 +37,10 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-
 .form  input{
     outline: none;
     color: black;
 }
-
 .username,
 .email,
 .password,
@@ -65,7 +70,10 @@ body{
 .le button{
     background-color: brown;
 }
-.ld{
+button:hover {
+    background-color: #e67f7f;
+  }
+.ld-cad{
     width: 50%;
     justify-content: center;
     margin: 10px;

@@ -1,0 +1,103 @@
+.rec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header-forg {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo-loc {
+  display: flex;
+  justify-content: center;
+}
+
+.container-rec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-rec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header button:hover {
+  color: brown;
+}
+
+.header svg {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+p {
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.email-rec {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-rec input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e67f7f;
+}

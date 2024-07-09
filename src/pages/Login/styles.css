@@ -1,21 +1,33 @@
-body{
+.login body{
     display: flex;
     justify-content: center;
     background-color:#E8E8E8;
     color: #575251;
+    height: 100vh;
+    align-items: center;
+}
+.header-login{
+    display: flex;
+    justify-content: center;
+}
+.logo-loc {
+    display: flex;
+    justify-content: start; 
+    margin-bottom: 10px;
 }
 .container-login{
     display: flex;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    align-items: center;
 }
 .card{
     display: flex;
     align-items: center;
     width: 700px;
     height: 330px;
-    justify-content: space-around;
+    margin: auto; 
 }
 .meio{
     width: 20%;
@@ -101,9 +113,11 @@ body{
 .button{
     background-color: #4267B2;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
+button:hover {
+    background-color: #e67f7f;
+  }
 #google{
     background-color: #4285F4;
     display: flex;
