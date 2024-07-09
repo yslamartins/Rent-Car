@@ -41,7 +41,9 @@ export default function Dashboard() {
                                     <p>{carro.categoria}</p>
                                     <p>Lançamento: {carro.ano}</p>
                                     <p className='diaria'>R${carro.diaria}/dia</p>
+                                    <Link to={`/carro/${carro.id}`}>
                                     <button>Rent</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +59,9 @@ export default function Dashboard() {
                                     <p>{moto.categoria}</p>
                                     <p>Lançamento: {moto.ano}</p>
                                     <p className='diaria'>R${moto.diaria}/dia</p>
+                                    <Link to={`/moto/${moto.id}`}>
                                     <button>Rent</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

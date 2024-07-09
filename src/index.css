@@ -1,28 +1,3 @@
-body{
-    background-color:#E8E8E8;
-}
-/* Reset CSS básico */
-
-/* Remove margens e preenchimentos padrão */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* garante que padding e border não aumentem o tamanho do elemento */
-}
-
-/* Normaliza o estilo de fonte */
-body {
-    font-family: Arial, sans-serif; /* escolha uma fonte padrão */
-    line-height: 1.6; /* define a altura da linha para um valor mais legível */
-}
-
-/* Opção adicional: remover estilos de lista não ordenada */
-ul {
-    list-style: none;
-}
-
-/* Opção adicional: definir estilos para links */
-a {
-    text-decoration: none; /* remove sublinhado padrão */
-    color: inherit; /* herda a cor do texto padrão */
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
