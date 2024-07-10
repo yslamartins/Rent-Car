@@ -9,13 +9,14 @@ export default function Veiculos(){
     const carro = carros.find((carro) => carro.id === Number(id));
     const moto = motos.find((moto) => moto.id === Number(id));
     
+
     return(
-        <div className="bg-[#E8E8E8] h-[100vh] flex"> 
+        <div className="bg-[#E8E8E8] h-[100vh] flex justify-center items-center"> 
             {veiculo === "moto" && (
-                <DetalhesVeiculo veiculo={moto}/>
+                <DetalhesVeiculo veiculo={moto} type={veiculo}/>
             ) }
             {veiculo === "carro" && (
-                <DetalhesVeiculo veiculo={carro}/>
+                <DetalhesVeiculo veiculo={carro} type={veiculo}/>
             ) }
             
         </div>
